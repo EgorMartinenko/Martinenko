@@ -8,7 +8,7 @@ USER_NAME = (By.ID, 'user-name')
 # Поле для ввода пароля
 PASSWORD = (By.ID, 'password')
 # Сообщение об ошибке при попытке входа с неправильными данными
-ERROR_MESSAGE_CONTAINER = (By.ID, 'error-message-container')
+ERROR_MESSAGE_CONTAINER = (By.CLASS_NAME, 'error-message-container')
 
 # Локаторы на странице выбора товаров (страница, которая открывается сразу после входа)
 # Кнопка для добавления в корзину портфеля
@@ -46,4 +46,4 @@ FINISH = (By.ID, 'finish')
 # логика такая: если есть кнопка для генерации чека на покупку, то, следовательно, покупка успешно завершена,
 # поэтому будем проверять наличие кнопки Generate PDF order, поэтому локатор пишем для нее)
 # Кнопка для генерации pdf чека
-GENERATE_PDF_ORDER = (By.CLASS_NAME, 'generate-pdf-order')
+GENERATE_PDF_ORDER = (By.ID, 'generate-pdf-order')
