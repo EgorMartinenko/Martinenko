@@ -27,6 +27,8 @@ REMOVE_BACKPACK = (By.ID, 'remove-sauce-labs-backpack')
 CART_ITEM = (By.CLASS_NAME, 'cart_item')
 # Кнопка для возвращения на страницу выбора товаров из корзины
 CONTINUE_SHOPPING = (By.ID, 'continue-shopping')
+# Кнопки удаления товара из корзины
+REMOVE_BUTTONS = (By.CSS_SELECTOR, ".cart_button")
 
 # Локаторы на странице первого шага оформления заказа (заполнение данных)
 # Поле для ввода имени

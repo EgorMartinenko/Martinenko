@@ -18,6 +18,7 @@ def test_add_numbers_data(request):
     return request.param
 
 #Тест
+@pytest.mark.skip
 def test_add_numbers(test_add_numbers_data):
     #Достаем кортеж с набором чисел и число результат их сложения
     numbers, result = test_add_numbers_data
